@@ -1,5 +1,5 @@
-# 基于EasyFloat实现应用内全局悬浮窗
 
+#### Blog地址: [基于EasyFloat实现应用内全局悬浮窗](https://www.jianshu.com/p/5baf6d52f1b9)
 
 效果图：
 
