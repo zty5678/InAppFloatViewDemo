@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_float_view">
+
+    <TextView
+        android:id="@+id/click_view_float"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="点我"
+        android:textColor="#fff"
+        android:textSize="24sp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/click_view_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/click_view_float"
+        android:layout_alignParentTop="true"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:padding="3dp"
+        android:src="@drawable/ic_close_circle">
+
+    </ImageView>
+
+</RelativeLayout>
